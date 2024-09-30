@@ -7,10 +7,20 @@ let km;
 const prezzoKm = 0.21;
 let prezzoBiglietto = km * prezzoKm;
 
-eta = prompt("scrivi la tua eta'");
+
+
+
+eta = Number(prompt("Scrivi la tua età"));
 console.log(eta);
-km = prompt("scrivi quanti km vuoi percorrere");
+km = Number(prompt("scrivi quanti km vuoi percorrere"));
 console.log(km);
+
+
+
+
+
+
+
 
 
 
