@@ -30,25 +30,28 @@ console.log(prezzoBiglietto);
 
 
 
+// Sconto del 20% per minorenni
 
-if (eta < 18) 
-    {
-    // Sconto del 20% per minorenni
-    prezzoBiglietto = prezzoBiglietto * 0.80;
-} 
+if (eta < 18)
 
-
-else if (eta > 65)
-     {
-    // Sconto del 40% per over 65
-    prezzoBiglietto = prezzoBiglietto * 0.60;
+    { prezzoBiglietto = prezzoBiglietto * 0.80;
 }
+
+
+// Sconto del 40% per over 65
+else if (eta > 65) 
+
+    { prezzoBiglietto = prezzoBiglietto * 0.60;
+   
+}
+
+
 alert(`Il prezzo del biglietto è: ${prezzoBiglietto}€`);
-     
 
 
- 
-    
+
+
+
 
 
 
