@@ -5,7 +5,7 @@ let km;
 
 // 2nd fase: raccolta dati
 const prezzoKm = 0.21;
-let prezzoBiglietto = (km * prezzoKm);
+let prezzoBiglietto = km * prezzoKm;
 
 eta = prompt("scrivi la tua eta'");
 console.log(eta);
