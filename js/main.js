@@ -17,11 +17,13 @@ console.log(km);
 
 // 3rd fase: elaborazione
 
-if (eta < 18) { prezzoBiglietto = (x * 20) / 100 }
+if (eta < 18) { (prezzoBiglietto  * 20) / 100 };
 console.log(eta);
 
 
-if (eta > 65) { prezzoBiglietto = (x * 40) / 100 }
+if (eta > 65) { (prezzoBiglietto * 40) / 100 };
+console.log(eta);
+
 
 
 
